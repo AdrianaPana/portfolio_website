@@ -37,10 +37,10 @@
   </head>
   <body>
     <div class="container">
-      <nav class="d-flex justify-content-between">
+      <nav class="d-flex justify-content-between fixed-top">
         <a href="/" title="Homepage">
           <img
-            src="images/signature4.png"
+            src="images/logo1.png"
             class="logo img-fluid"
             alt="Adriana Logo"
           />
@@ -63,10 +63,11 @@
     </div>
     <div class="content-container container">
       <div class="content">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
-
+        <h1 class="mb-5" id="first2Projects">
+          Take a look at what I've been working on!
+        </h1>
         <div class="row">
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4 p-3">
             <img
               src="images/attachment_theory.png"
               class="img-fluid mb-3 rounded"
@@ -78,7 +79,7 @@
               pure HTML, CSS, and JavaScript.
             </p>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4 p-3">
             <img
               src="images/weather_app.png"
               class="img-fluid mb-3 rounded"
@@ -94,7 +95,7 @@
               "My projects" section of this web.
             </p>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4 p-3" id="last2Projects">
             <img
               src="images/yogurt_weather_yoga.png"
               class="img-fluid mb-3 rounded"
@@ -107,7 +108,7 @@
               scrolling jumbotron on the homepage!
             </p>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4 p-3">
             <img
               src="images/portfolio.png"
               class="img-fluid mb-3 rounded"
@@ -149,15 +150,14 @@
             >
           </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <a
-            href="adrianapana@protonmail.com"
-            class="email-link mb-3"
-            title="Email Adriana"
-            >adrianapana@protonmail.com</a
-          >
-        </div>
         <div class="social-links d-flex justify-content-center">
+          <a
+            href="mailto:adrianapana@protonmail.com"
+            class="_blank"
+            title="Email Adriana"
+          >
+            <i class="fas fa-at"></i>
+          </a>
           <a
             href="https://github.com/AdrianaPana/portfolio_website"
             target="_blank"

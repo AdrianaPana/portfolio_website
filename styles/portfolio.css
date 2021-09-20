@@ -1,12 +1,15 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
+  --background-color: #fffff1;
+  --pink-color: #ca65c4;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
+  background: var(--background-color);
 }
 
 h1,
@@ -41,7 +44,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 140px 20px 80px;
 }
 
 .hero p {
@@ -59,7 +62,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 90px 20px;
 }
 
 .content h1 {
@@ -81,10 +84,12 @@ p {
 
 .content p {
   font-size: 14px;
+  padding: 5px 40px;
 }
 
 .content {
-  margin: 30px;
+  text-align: center;
+  margin: 80px 0 30px 0;
 }
 
 .btn-branding {
@@ -110,16 +115,49 @@ p {
 }
 
 .me {
-  border-radius: 4px;
+  border-radius: 0 0 200px 10px;
   padding-top: 100px;
 }
 
-.logo {
-  max-height: 140px;
+.description {
+  color: var(--pink-color);
+  font-size: 24px;
+}
+
+.section-container {
+  text-align: center;
+}
+
+.section-container p {
+  color: var(--pink-color);
+  font-size: 12px;
+}
+
+.section-container h2 {
+  font-size: 34px;
+  background: var(--secondary-color);
+}
+
+.icon-big {
+  font-size: 50px;
+  color: var(--pink-color);
+  padding: 3px;
+}
+
+.project-pic {
+  margin-top: 130px;
+}
+
+.certificates {
+  border: 10px solid var(--secondary-color);
+  border-radius: 4px;
+  max-width: 275px;
+  max-height: 195px;
 }
 
 nav {
-  padding: 20px 0;
+  padding: 20px 20px;
+  background: var(--secondary-color);
 }
 
 nav ul {
@@ -136,7 +174,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--pink-color);
 }
 
 nav a:hover,
@@ -161,7 +199,7 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--pink-color);
   font-size: 24px;
   text-align: center;
 }
@@ -172,11 +210,11 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
+  color: var(--pink-color);
   background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
-  font-size: 18px;
+  font-size: 20px;
   transition: all 100ms ease-in-out;
 }
 
@@ -205,7 +243,7 @@ footer .social-links a:hover {
   }
 
   .content-container {
-    padding: 20px 10px;
+    padding: 90px 10px;
   }
 
   .project-description {
@@ -213,9 +251,13 @@ footer .social-links a:hover {
     text-align: center;
   }
 
-  .logo {
-    max-height: 40px;
-    margin-top: 20px;
+  .me {
+    padding: 30px 10px;
+  }
+
+  .certificates {
+    display: block;
+    margin: 0 auto;
   }
 
   nav a {
