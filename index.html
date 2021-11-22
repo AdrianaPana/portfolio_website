@@ -36,31 +36,26 @@
     ></script>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between fixed-top">
-        <a href="/" title="Homepage">
-          <img
-            src="images/logo1.png"
-            class="logo img-fluid"
-            alt="Adriana Logo"
-          />
-        </a>
-        <ul>
-          <li class="active">
-            <a href="/" title="Homepage"> Home</a>
-          </li>
-          <li>
-            <a href="/about.html" title="About Adriana">About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Adriana's work">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Contact Adriana">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="d-flex justify-content-between fixed-top">
+      <a href="/" title="Homepage">
+        <img src="images/logo1.png" class="logo img-fluid" alt="Adriana Logo" />
+      </a>
+      <ul>
+        <li class="active">
+          <a href="/" title="Homepage"> Home</a>
+        </li>
+        <li>
+          <a href="/about.html" title="About Adriana">About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Adriana's work">Work</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Adriana">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container mt-5"></div>
     <div class="hero">
       <p>👋 Hello, I am</p>
       <h1>Adriana Pana</h1>
@@ -73,20 +68,44 @@
     </div>
     <p class="text-center m-5 description">Some of my featured projects</p>
     <div class="container text-center">
-      <div class="row mb-5">
+      <div class="row first-project">
+        <div class="col project-description">
+          <div>
+            <h2 class="mb-5">Weather App in React</h2>
+            <p class="mb-5 text-muted">
+              An interactive weather app using React, HTML, CSS, Javascript,
+              Bootstrap framework.
+            </p>
+            <a
+              href="/work.html#first2Projects"
+              class="btn btn-branding-outline first-button"
+            >
+              Learn more
+            </a>
+          </div>
+        </div>
         <div class="col d-none d-lg-block">
           <img
-            src="images/attachment_theory.png"
-            class="img-fluid rounded"
-            alt="Attachment theory project preview"
+            src="images/weather_react.png"
+            class="img-fluid rounded project-pic"
+            alt="Weather react project preview"
           />
         </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Attachment Theory Page</h2>
+      </div>
+      <div class="row mb-5 second-project">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/dictionary.png"
+            class="img-fluid rounded project-pic"
+            alt="Dictionary project preview"
+          />
+        </div>
+        <div class="col project-description">
+          <div>
+            <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted">
-              A single-page website and it was built with pure HTML, CSS, and
-              JavaScript.
+              An interactive weather app using React, HTML, CSS, Javascript,
+              Bootstrap framework.
             </p>
             <a
               href="/work.html#first2Projects"
@@ -98,8 +117,8 @@
         </div>
       </div>
       <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
+        <div class="col project-description">
+          <div>
             <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">
               An interactive weather app using HTML, CSS, Javascript, Bootstrap
@@ -116,7 +135,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/weather_app.png"
-            class="img-fluid rounded"
+            class="img-fluid rounded project-pic"
             alt="Weather project preview"
           />
         </div>
@@ -124,13 +143,30 @@
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="images/yogurt_weather_yoga.png"
-            class="img-fluid rounded"
-            alt="Yogurt project preview"
+            src="images/attachment_theory.png"
+            class="img-fluid rounded project-pic"
+            alt="Attachment theory project preview"
           />
         </div>
-        <div class="col">
-          <div class="project-description">
+        <div class="col project-description">
+          <div>
+            <h2 class="mb-5">Attachment Theory Page</h2>
+            <p class="mb-5 text-muted">
+              A single-page website and it was built with pure HTML, CSS, and
+              JavaScript.
+            </p>
+            <a
+              href="/work.html#first2Projects"
+              class="btn btn-branding-outline"
+            >
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col project-description">
+          <div>
             <h2 class="mb-5">Yogurt Project</h2>
             <p class="mb-5 text-muted">Website replication</p>
 
@@ -139,10 +175,24 @@
             </a>
           </div>
         </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/yogurt_weather_yoga.png"
+            class="img-fluid rounded project-pic"
+            alt="Yogurt project preview"
+          />
+        </div>
       </div>
       <div class="row">
-        <div class="col">
-          <div class="project-description">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/portfolio.png"
+            class="img-fluid rounded project-pic"
+            alt="Personal website preview"
+          />
+        </div>
+        <div class="col project-description">
+          <div>
             <h2 class="mb-5">Portfolio Website</h2>
             <p class="mb-5 text-muted">
               My personal portfolio (which is the website where you are right
@@ -153,13 +203,6 @@
               Learn more
             </a>
           </div>
-        </div>
-        <div class="col d-none d-lg-block project-pic">
-          <img
-            src="images/portfolio.png"
-            class="img-fluid rounded"
-            alt="Personal website preview"
-          />
         </div>
       </div>
       <footer>
@@ -201,7 +244,7 @@
             <i class="fab fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/adriana"
+            href="https://www.linkedin.com/in/adriana-pana"
             target="_blank"
             title="LinkedIn Profile"
           >

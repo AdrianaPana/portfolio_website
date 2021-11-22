@@ -111,7 +111,7 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 60px 30px;
 }
 
 .me {
@@ -145,7 +145,7 @@ p {
 }
 
 .project-pic {
-  margin-top: 130px;
+  padding-top: 90px;
 }
 
 .certificates {
@@ -258,6 +258,10 @@ footer .social-links a:hover {
   .certificates {
     display: block;
     margin: 0 auto;
+  }
+
+  .first-button {
+    margin-bottom: 35px;
   }
 
   nav a {
