@@ -153,6 +153,8 @@ p {
   border-radius: 4px;
   max-width: 275px;
   max-height: 195px;
+  display: block;
+  margin: 0 auto;
 }
 
 nav {
@@ -253,11 +255,6 @@ footer .social-links a:hover {
 
   .me {
     padding: 30px 10px;
-  }
-
-  .certificates {
-    display: block;
-    margin: 0 auto;
   }
 
   .first-button {
