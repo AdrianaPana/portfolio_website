@@ -248,6 +248,11 @@ footer .social-links a:hover {
     padding: 90px 10px;
   }
 
+  .content-container .workpage-header {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
