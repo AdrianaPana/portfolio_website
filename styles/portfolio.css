@@ -149,6 +149,14 @@ p {
   padding-top: 90px;
 }
 
+.project-pic:hover {
+  opacity: 0.5;
+}
+
+.pr-pic:hover {
+  opacity: 0.5;
+}
+
 .certificates {
   border: 10px solid var(--secondary-color);
   border-radius: 4px;
