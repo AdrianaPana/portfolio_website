@@ -177,7 +177,7 @@ nav {
 }
 
 nav ul {
-  padding: 20px 0;
+  padding: 30px 0;
   margin: 0;
 }
 
@@ -185,12 +185,13 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 15px;
+  margin: 0 6px;
 }
 
 nav a {
   text-decoration: none;
   color: var(--pink-color);
+  width: 150px;
 }
 
 nav a:hover,
